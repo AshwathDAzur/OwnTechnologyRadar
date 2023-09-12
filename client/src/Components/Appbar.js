@@ -27,7 +27,7 @@ function Appbar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ bgcolor: "red" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -45,7 +45,7 @@ function Appbar() {
               textDecoration: "none",
             }}
           >
-            Ashwath D'Azur
+            Technology Radar
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -101,7 +101,7 @@ function Appbar() {
               textDecoration: "none",
             }}
           >
-            Ashwath D'Azur
+            Technology Radar
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (

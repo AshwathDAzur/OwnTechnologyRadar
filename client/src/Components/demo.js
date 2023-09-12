@@ -11,7 +11,7 @@ export default function Demo() {
   const getdata = async () => {
     try {
       const response = await axios.get("http://localhost:2407");
-      setsheetdata(response.data.values);
+      setsheetdata(response.data);
       console.log(sheetdata);
     } catch (error) {
       console.log(error);
