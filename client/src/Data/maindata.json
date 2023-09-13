@@ -1,0 +1,1714 @@
+[
+  ["name", "ring", "quadrant", "isNew", "description"],
+  [
+    "Data mesh",
+    "Themes & Techniques",
+    "Data & analytics",
+    "TRUE",
+    "Data mesh is an architectural paradigm that treats data as a product, enabling decentralized data ownership and management to improve data quality and accessibility."
+  ],
+  [
+    "DB-as-code",
+    "Themes & Techniques",
+    "Data & analytics",
+    "TRUE",
+    "DB-as-Code involves managing database schema, structure, and migrations using version control tools and code, promoting collaboration and automation in database management."
+  ],
+  [
+    "Dimensional modelling",
+    "Themes & Techniques",
+    "Data & analytics",
+    "FALSE",
+    "Dimensional modeling is a data modeling technique used to design data warehouses for easy querying and reporting by organizing data into dimensions and facts."
+  ],
+  [
+    "Data vault modelling",
+    "Themes & Techniques",
+    "Data & analytics",
+    "TRUE",
+    "Data Vault modeling is a methodology for designing scalable and flexible data warehouses that focus on capturing historical and audit data."
+  ],
+  [
+    "Data Archival",
+    "Themes & Techniques",
+    "Data & analytics",
+    "FALSE",
+    "Data archival is the practice of moving older or less frequently accessed data to separate storage tiers or systems to optimize performance and reduce costs."
+  ],
+  [
+    "NoSQL Design",
+    "Themes & Techniques",
+    "Data & analytics",
+    "TRUE",
+    "NoSQL design involves creating database schemas suitable for NoSQL databases, which excel in handling large volumes of unstructured or semi-structured data."
+  ],
+  [
+    "DB performance management",
+    "Themes & Techniques",
+    "Data & analytics",
+    "FALSE",
+    "Database performance management includes monitoring and optimizing database performance to ensure efficient query execution and responsiveness."
+  ],
+  [
+    "Event sourcing",
+    "Themes & Techniques",
+    "Data & analytics",
+    "TRUE",
+    "Event sourcing is a pattern where application state changes are captured as a sequence of events, offering an audit trail and supporting complex data transformations."
+  ],
+  [
+    "Web scraping",
+    "Themes & Techniques",
+    "Data & analytics",
+    "FALSE",
+    "Web scraping involves extracting data from websites using automated tools or scripts to gather information for analysis or other purposes."
+  ],
+  [
+    "Streaming data",
+    "Themes & Techniques",
+    "Data & analytics",
+    "TRUE",
+    "Streaming data refers to continuous, real-time data flows that are processed and analyzed as they are generated, enabling instant insights and actions."
+  ],
+  [
+    "Data enrichment",
+    "Themes & Techniques",
+    "Data & analytics",
+    "FALSE",
+    "Data enrichment involves enhancing existing data with additional information, often from external sources, to improve its accuracy and value."
+  ],
+  [
+    "Normalization",
+    "Themes & Techniques",
+    "Data & analytics",
+    "FALSE",
+    "Normalization is a database design technique that reduces data redundancy by organizing data into tables to minimize duplication and improve data integrity."
+  ],
+  [
+    "Data privacy & masking",
+    "Themes & Techniques",
+    "Data & analytics",
+    "FALSE",
+    "Data privacy and masking involve protecting sensitive information by applying techniques like data masking and encryption to prevent unauthorized access."
+  ],
+  [
+    "Data virtualization",
+    "Themes & Techniques",
+    "Data & analytics",
+    "TRUE",
+    "Data virtualization integrates data from various sources into a single virtual view, enabling real-time access and analysis without physically moving the data."
+  ],
+  [
+    "Lakes & Marts",
+    "Themes & Techniques",
+    "Data & analytics",
+    "FALSE",
+    "Data lakes store raw and unstructured data, while data marts contain structured data organized for specific business needs, enabling both scalability and agility."
+  ],
+  [
+    "Predictive analysis",
+    "Themes & Techniques",
+    "Data & analytics",
+    "TRUE",
+    "Predictive analysis uses historical data and statistical algorithms to forecast future trends and outcomes, aiding decision-making and planning."
+  ],
+  [
+    "MDM",
+    "Themes & Techniques",
+    "Data & analytics",
+    "FALSE",
+    "MDM involves creating and managing a single, accurate master version of enterprise data to ensure consistency and data quality."
+  ],
+  [
+    "Data lineage",
+    "Themes & Techniques",
+    "Data & analytics",
+    "TRUE",
+    "Data lineage tracks the origins, transformations, and movement of data across systems, providing visibility into data flow and helping with compliance."
+  ],
+  [
+    "DAX",
+    "Themes & Techniques",
+    "Data & analytics",
+    "FALSE",
+    "DAX is a formula language used in Power BI, Excel, and other Microsoft tools for data modeling and analysis."
+  ],
+  [
+    "Incremental loading",
+    "Themes & Techniques",
+    "Data & analytics",
+    "FALSE",
+    "Incremental loading is the practice of updating a data warehouse with only the new or changed data since the last load, improving efficiency."
+  ],
+  [
+    "Embedded Analytics",
+    "Themes & Techniques",
+    "Data & analytics",
+    "FALSE",
+    "Embedded analytics integrates analytical features directly into applications, allowing users to access insights without leaving the application."
+  ],
+  [
+    "Metrics store",
+    "Themes & Techniques",
+    "Data & analytics",
+    "TRUE",
+    "Metrics store centralizes and stores metric data for monitoring and analysis, providing insights into system performance and user behavior."
+  ],
+  [
+    "Power query",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Power Query is a data transformation and integration tool that enables users to connect, cleanse, and shape data from various sources."
+  ],
+  [
+    "Google BigQuery",
+    "Products & Platforms",
+    "Data & analytics",
+    "TRUE",
+    "Google BigQuery is a fully managed analytics data warehouse that enables super-fast SQL queries using the processing power of Google's infrastructure."
+  ],
+  [
+    "AWS Redshift",
+    "Products & Platforms",
+    "Data & analytics",
+    "TRUE",
+    "Amazon Redshift is a fully managed data warehousing service that allows users to analyze large datasets with high performance and scalability."
+  ],
+  [
+    "Druid",
+    "Products & Platforms",
+    "Data & analytics",
+    "TRUE",
+    "Apache Druid is an open-source data store designed for real-time analytics, supporting fast queries and aggregations on large volumes of data."
+  ],
+  [
+    "Lakehouse",
+    "Products & Platforms",
+    "Data & analytics",
+    "TRUE",
+    "A lakehouse architecture combines the best of data lakes and data warehouses, allowing both raw and structured data to coexist and be processed efficiently."
+  ],
+  [
+    "Snowflake",
+    "Products & Platforms",
+    "Data & analytics",
+    "TRUE",
+    "Snowflake is a cloud-based data warehousing platform that offers elastic scalability, separation of storage and compute, and ANSI SQL support."
+  ],
+  [
+    "Inforiver",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Inforiver is a data integration platform that enables users to create data pipelines for extracting, transforming, and loading data across various sources."
+  ],
+  [
+    "Azure blob storage",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Azure Blob Storage is Microsoft's scalable object storage service that stores unstructured data and supports various storage tiers."
+  ],
+  [
+    "Pandas",
+    "Libraries & Frameworks",
+    "Data & analytics",
+    "FALSE",
+    "Pandas is a Python library used for data manipulation and analysis, providing data structures and functions for efficient data processing."
+  ],
+  [
+    "Power BI",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Power BI is a business analytics service by Microsoft that allows users to visualize and share insights from data through interactive dashboards and reports."
+  ],
+  [
+    "PostgreSQL",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "PostgreSQL is an open-source relational database management system known for its advanced features and extensibility."
+  ],
+  [
+    "MongoDB",
+    "Libraries & Frameworks",
+    "Data & analytics",
+    "TRUE",
+    "MongoDB is a NoSQL database that stores data in a flexible, document-oriented format, suitable for handling unstructured or semi-structured data."
+  ],
+  [
+    "Azure data factory",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Azure Data Factory is a cloud-based data integration service used to create, schedule, and orchestrate data pipelines."
+  ],
+  [
+    "Data bricks",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Databricks is a unified analytics platform that provides tools for data engineering, data science, and collaborative analytics using Apache Spark."
+  ],
+  [
+    "Talend",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Talend is an open-source data integration and ETL tool used to connect, transform, and manage data across various sources and destinations."
+  ],
+  [
+    "Boomi",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Boomi is a cloud-based integration platform that allows organizations to connect applications and data sources for seamless data flow."
+  ],
+  [
+    "SSRS",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "SSRS is a Microsoft server-based report generation tool that enables users to create, publish, and manage reports."
+  ],
+  [
+    "SSIS",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "SSIS is a Microsoft ETL tool used to extract, transform, and load data from various sources into a destination."
+  ],
+  [
+    "SSAS",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "SSAS is a Microsoft tool used for online analytical processing (OLAP) and data mining to analyze and visualize data."
+  ],
+  [
+    "Apache Spark",
+    "Libraries & Frameworks",
+    "Data & analytics",
+    "FALSE",
+    "Apache Spark is an open-source data processing and analytics engine that supports batch processing, real-time streaming, and machine learning."
+  ],
+  [
+    "Power Automate",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Power Automate is a Microsoft tool for automating workflows and tasks across applications and services."
+  ],
+  [
+    "Power Apps",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Power Apps is a suite of apps, services, connectors, and data platforms that enables users to build custom business applications."
+  ],
+  [
+    "Azure Logic apps",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Azure Logic Apps is a cloud-based service that enables users to create and automate workflows and integrate applications and services."
+  ],
+  [
+    "Incorta",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Incorta is a data analytics platform that offers real-time analytics and visualization capabilities for business insights."
+  ],
+  [
+    "Azure synapse analytics",
+    "Products & Platforms",
+    "Data & analytics",
+    "FALSE",
+    "Azure Synapse Analytics is an analytics service that combines big data and data warehousing for fast querying and analysis."
+  ],
+  [
+    "Data lake",
+    "Products & Platforms",
+    "Data & analytics",
+    "TRUE",
+    "A data lake is a storage repository that can hold vast amounts of structured, semi-structured, and unstructured data, enabling analytics and data exploration."
+  ],
+  [],
+  [
+    "Cloud native",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "TRUE",
+    "Cloud native refers to designing and building applications that leverage the full potential of cloud computing, utilizing microservices, containers, and dynamic orchestration for scalability and resilience."
+  ],
+  [
+    "Chaos engineering",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "TRUE",
+    "Chaos engineering is the practice of deliberately injecting controlled failures into systems to test their resilience and identify weaknesses in infrastructure and applications."
+  ],
+  [
+    "SRE",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "TRUE",
+    "SRE is a discipline that combines software engineering and IT operations, focusing on building reliable and scalable systems by applying software engineering practices to operations challenges."
+  ],
+  [
+    "Continous integration",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "FALSE",
+    "Continuous Integration (CI) involves the practice of frequently integrating code changes into a shared repository, followed by automated testing and verification."
+  ],
+  [
+    "Cost attribution & optimization",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "TRUE",
+    "Cost attribution involves tracking and allocating cloud resource costs to specific projects or teams, while cost optimization aims to reduce cloud expenses through efficient resource management."
+  ],
+  [
+    "Unified logging",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "FALSE",
+    "Unified logging involves collecting and storing application and infrastructure logs in a centralized location to facilitate troubleshooting and analysis."
+  ],
+  [
+    "Health & Monitoring",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "FALSE",
+    "Health and monitoring tools ensure the availability and performance of applications and infrastructure by providing real-time insights and alerts on system health."
+  ],
+  [
+    "Serverless",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "TRUE",
+    "Serverless computing allows developers to build and run applications without managing server infrastructure, enabling automatic scaling and cost efficiency."
+  ],
+  [
+    "EAI",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "FALSE",
+    "EAI refers to the process of connecting and integrating various enterprise applications and systems to enable seamless data flow and communication."
+  ],
+  [
+    "Hybrid cloud",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "TRUE",
+    "Hybrid cloud is an IT environment that combines private and public cloud resources, allowing organizations to balance scalability, security, and cost-effectiveness."
+  ],
+  [
+    "Multi cloud strategies",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "TRUE",
+    "Multi cloud involves using multiple cloud providers to avoid vendor lock-in, increase resilience, and optimize costs by leveraging different provider strengths."
+  ],
+  [
+    "Containerization & Container orchestration",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "TRUE",
+    "Containerization packs applications and dependencies into isolated units for consistent deployment, while orchestration tools like Kubernetes manage containerized applications at scale."
+  ],
+  [
+    "Infra-as-code",
+    "Themes & Techniques",
+    "DevOps & Cloud",
+    "TRUE",
+    "Infrastructure-as-Code (IaC) involves using code to define and manage infrastructure, enabling automated provisioning and consistent deployments."
+  ],
+  [
+    "ELK",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "ELK is a combination of Elasticsearch, Logstash, and Kibana used for collecting, storing, and visualizing log data."
+  ],
+  [
+    "Datadog",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "Datadog is a monitoring and analytics platform that provides real-time visibility into application performance and infrastructure metrics."
+  ],
+  [
+    "Go CD",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "Go CD is a continuous delivery and release automation tool used to automate and streamline the software deployment process."
+  ],
+  [
+    "Sentry",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "Sentry is an error tracking and monitoring tool that helps developers identify, diagnose, and fix application errors."
+  ],
+  [
+    "GitLab",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "GitLab is a web-based platform for version control, continuous integration, and DevOps lifecycle management."
+  ],
+  [
+    "Loggly",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "Loggly is a cloud-based log management tool that helps organizations collect, analyze, and visualize log data for troubleshooting and insights."
+  ],
+  [
+    "Prometheus",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "Prometheus is an open-source monitoring and alerting toolkit designed for collecting and querying metrics from applications and systems."
+  ],
+  [
+    "Grafana",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "Grafana is an open-source platform for data visualization and monitoring that integrates with various data sources and allows creating interactive dashboards."
+  ],
+  [
+    "Ansible",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "Ansible is an open-source automation tool that automates application deployment, configuration management, and other IT tasks."
+  ],
+  [
+    "Kubernetes",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications."
+  ],
+  [
+    "Docker",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "Docker is a platform for developing, shipping, and running applications in containers, providing isolation and portability."
+  ],
+  [
+    "Jenkins",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "Jenkins is an open-source automation server used for continuous integration and continuous delivery (CI/CD) of software projects."
+  ],
+  [
+    "Azure build pipelines",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "FALSE",
+    "Azure Build Pipelines is a CI/CD service by Microsoft Azure for automating application builds, tests, and deployments."
+  ],
+  [
+    "Github actions",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "GitHub Actions is an integrated CI/CD service within GitHub repositories for automating workflows, tests, and deployments."
+  ],
+  [
+    "Azure functions",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "FALSE",
+    "Azure Functions is a serverless compute service by Microsoft Azure that enables developers to run code without provisioning or managing infrastructure."
+  ],
+  [
+    "Azure data factory",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "FALSE",
+    "Azure Data Factory is a cloud-based data integration service used to create, schedule, and manage data pipelines."
+  ],
+  [
+    "Azure blob storage",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "FALSE",
+    "Azure Blob Storage is a scalable and secure cloud storage service for storing and managing unstructured data."
+  ],
+  [
+    "AWS IAM",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "AWS Identity and Access Management (IAM) is a service that manages user identities and their permissions to access AWS resources."
+  ],
+  [
+    "AWS Cognito",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "AWS Cognito is a managed identity and access management service that provides authentication, authorization, and user management for applications."
+  ],
+  [
+    "AWS Step functions",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "AWS Step Functions is a serverless workflow service that coordinates and automates multiple AWS services into scalable and reliable workflows."
+  ],
+  [
+    "AWS Lambda",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "AWS Lambda is a serverless compute service by Amazon that runs code in response to triggers without the need to provision or manage servers."
+  ],
+  [
+    "Azure App service",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "Azure App Service is a platform-as-a-service (PaaS) offering by Microsoft Azure that allows developers to build, deploy, and scale web applications."
+  ],
+  [
+    "AWS Amplify",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "AWS Amplify is a development platform for building scalable and secure full-stack applications powered by AWS services."
+  ],
+  [
+    "AWS SNS",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "AWS Simple Notification Service (SNS) is a messaging service that enables the distribution of messages to a variety of endpoints, including email, SMS, and more."
+  ],
+  [
+    "AWS SQS",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "AWS Simple Queue Service (SQS) is a fully managed message queuing service that enables decoupling of application components."
+  ],
+  [
+    "Terraform",
+    "Libraries & Frameworks",
+    "DevOps & Cloud",
+    "TRUE",
+    "Terraform is an open-source infrastructure-as-code tool used to provision and manage infrastructure resources across multiple cloud providers."
+  ],
+  [
+    "AWS CDK",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "AWS Cloud Development Kit (CDK) is an open-source software development framework for defining cloud infrastructure in code and deploying it using AWS CloudFormation."
+  ],
+  [
+    "AWS SAM",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "AWS Serverless Application Model (SAM) is an open-source framework for building serverless applications on AWS."
+  ],
+  [
+    "AWS Dynamo DB",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "AWS DynamoDB is a managed NoSQL database service that offers high performance, scalability, and availability."
+  ],
+  [
+    "AWS Cloud formation",
+    "Products & Platforms",
+    "DevOps & Cloud",
+    "TRUE",
+    "AWS CloudFormation is a service that enables automated provisioning and management of AWS resources using JSON or YAML templates."
+  ],
+  [],
+  [
+    "Path to production mapping",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "A path to production maps the steps, people, tools, tasks and output for software request/change to reach production. It is a great technical inception activity for fostering conversations about cross functional requirements, build pipeline, continuous delivery and quality."
+  ],
+  [
+    "Serverless functions",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "serverless functions are single-purpose, programmatic functions that are hosted on managed infrastructure. These functions, which are invoked through the Internet, are hosted and maintained by cloud computing companies"
+  ],
+  [
+    "Docs-as-code",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "Documentation as Code (Docs as Code) refers to a philosophy that you should be writing documentation with the same tools as code, following the same workflows as development teams, and being integrated in the product team. It enables a culture where writers and developers both feel ownership of documentation, and work together to make it as good as possible"
+  ],
+  [
+    "Html as PDF/Image",
+    "Themes & Techniques",
+    "App dev",
+    "FALSE",
+    "HTML as PDF/Image\" is a versatile technique that converts HTML content into visually consistent PDF documents or images. By rendering web-based information into printable or shareable formats, this method enables seamless preservation of website layouts, graphics, and text styles, while offering flexibility for offline access, documentation, and easy sharing across platforms."
+  ],
+  [
+    "Offline data sync",
+    "Themes & Techniques",
+    "App dev",
+    "FALSE",
+    "Offline data sync is a process that enables the seamless exchange of information between devices and a central database, even when connectivity is intermittent or unavailable. It allows users to work offline, collecting or modifying data, and later synchronizes these changes with the main database once a connection is reestablished, ensuring data consistency across all platforms. This technique is vital for applications requiring reliable data updates across devices in varying network conditions."
+  ],
+  [
+    "Continous integration",
+    "Themes & Techniques",
+    "App dev",
+    "FALSE",
+    "Continuous integration (CI) is the practice of automating the integration of code changes from multiple contributors into a single software project. It’s a primary DevOps best practice, allowing developers to frequently merge code changes into a central repository where builds and tests then run. Automated tools are used to assert the new code’s correctness before integration."
+  ],
+  [
+    "Static code analysis",
+    "Themes & Techniques",
+    "App dev",
+    "FALSE",
+    "Static code analysis, or static analysis, is a software verification activity that analyzes source code for quality, reliability, and security without executing the code. Using static analysis, you can identify defects and security vulnerabilities that can compromise the safety and security of your application."
+  ],
+  [
+    "Localization & Globalization",
+    "Themes & Techniques",
+    "App dev",
+    "FALSE",
+    "Globalization refers to the process of building your app to support multiple cultures and locales. It involves understanding what target cultures and locales you want to support, designing your app (and creating assets) to support those targets, and writing your code so that it operates correctly. Localization is the more specific process of adapting your app to a target culture or locale."
+  ],
+  [
+    "Containerization",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Containerization is the packaging of software code with just the operating system (OS) libraries and dependencies required to run the code to create a single lightweight executable—called a container—that runs consistently on any infrastructure."
+  ],
+  [
+    "Micro services",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Microservices are an architectural and organizational approach to software development where software is composed of small independent services that communicate over well-defined APIs. These services are owned by small, self-contained teams. Microservices architectures make applications easier to scale and faster to develop, enabling innovation and accelerating time-to-market for new features."
+  ],
+  [
+    "APM",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Application Performance Management is the monitoring and management of the performance and availability of software applications. APM strives to detect and diagnose complex application performance problems to maintain an expected level of service"
+  ],
+  [
+    "Multi tenancy",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Software multitenancy is a software architecture in which a single instance of software runs on a server and serves multiple tenants. Systems designed in such manner are \"shared\". A tenant is a group of users who share a common access with specific privileges to the software instance"
+  ],
+  [
+    "Continous deployment & delivery",
+    "Themes & Techniques",
+    "App dev",
+    "FALSE",
+    "Continuous delivery is an extension of continuous integration since it automatically deploys all code changes to a testing and/or production environment after the build stage. Continuous deployment goes one step further than continuous delivery. With this practice, every change that passes all stages of your production pipeline is released to your customers. There's no human intervention, and only a failed test will prevent a new change to be deployed to production."
+  ],
+  [
+    "Guided app tour",
+    "Themes & Techniques",
+    "App dev",
+    "FALSE",
+    "Guided tours are in-app tutorials that guide new users through a SaaS tool’s user interface (UI) and key features. A modern guided tour combines different UI patterns like pop-ups, interactive walkthroughs, beacons, tooltips, and explainer videos to allow new users to learn in the flow of work.These patterns offer more contextual guidance that creates a stronger first impression with new users. That strong first impression improves product adoption rates compared to traditional user onboarding."
+  ],
+  [
+    "Open API",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "An open API often referred to as a public API is a publicly available application programming interface that provides developers with programmatic access to a possibly proprietary software application or web service. Open APIs are APIs that are published on the internet and are free to access by consumers"
+  ],
+  [
+    "Headless browser",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Headless Browsers are those which actually access the Web Page, but the GUI is hidden from the user. It is just like any other browser, the only difference is we cannot see anything on the screen.Just like a normal browser a Headless Browser performs all the functions like clicking links, navigating pages, downloading the document, uploading a document, etc. by performing all the instructions as per our program. A normal browser would proceed with each step of the program with a GUI presentation, whereas for a Headless Browser all the steps of the program are carried out sequentially and correctly and we can keep a track of it with the help of a Console or command-line interface."
+  ],
+  [
+    "Data-driven documents",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "It is a  is a JavaScript library for creating dynamic and interactive data visualizations in web browsers. D3 stands for \"Data-Driven Documents,\" reflecting its focus on using data to generate and manipulate visual elements in a web page"
+  ],
+  [
+    "JS state management",
+    "Themes & Techniques",
+    "App dev",
+    "FALSE",
+    "JavaScript state management refers to the process of managing and handling the state of an application in a structured and efficient manner. In JavaScript applications, the state represents the data and information that the application needs to function correctly and respond to user interactions."
+  ],
+  [
+    "PWA",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Progressive Web App (PWA) is a term that describes a modern web application development approach that aims to provide a reliable, fast, and engaging user experience similar to that of native mobile apps. PWAs combine the best of web and mobile app technologies to create web applications that work seamlessly across different devices and platforms."
+  ],
+  [
+    "Web & service workers",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Web and service workers are important concepts in web development that enable enhanced performance, offline capabilities, and background processing in modern web applications. They are scripts that run in the background, separate from the main user interface thread, and provide various capabilities to web applications."
+  ],
+  [
+    "Browser media capture",
+    "Themes & Techniques",
+    "App dev",
+    "FALSE",
+    "Browser media capture refers to the ability of modern web browsers to access and utilize the user's device's media capabilities, such as cameras and microphones, to capture audio, video, and images directly within a web application. This functionality allows web developers to create interactive and engaging applications that can record and process media content without requiring users to use external applications or plugins"
+  ],
+  [
+    "0 downtime deployment",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Zero downtime deployment is a software deployment strategy that aims to ensure continuous availability and uninterrupted user experience during the process of deploying updates, new features, or bug fixes to an application or system. The goal is to minimize or eliminate any disruptions to users, ensuring that the application remains operational even while updates are being applied."
+  ],
+  [
+    "Live data refresh",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Live data refresh refers to the process of updating and displaying real-time or near-real-time data in a software application without requiring manual user intervention. It ensures that users can see the most current information as it becomes available, without having to refresh the page or perform any actions to trigger data updates."
+  ],
+  [
+    "GILT",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Gilt is an online shopping platform that offers its members access to high-end designer fashion, luxury brands, and lifestyle products at discounted prices. The platform operates as a members-only shopping club, providing its members with limited-time sales events known as \"flash sales.\" These events typically feature products from well-known fashion and luxury brands at significantly reduced prices compared to traditional retail."
+  ],
+  [
+    "TDD",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Test-Driven Development (TDD) is a software development methodology that emphasizes writing tests before writing the actual code. In TDD, the development process is guided by a cycle of writing a failing test, implementing the code to make the test pass, and then refactoring the code to improve its quality. TDD is often associated with the mantra \"Red-Green-Refactor.\""
+  ],
+  [
+    "BDD",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Behavior-Driven Development (BDD) is a software development methodology that extends the principles of Test-Driven Development (TDD) by emphasizing collaboration between developers, testers, and non-technical stakeholders. BDD focuses on describing the behavior of the software from a user's perspective, using natural language specifications that are understandable to both technical and non-technical team members."
+  ],
+  [
+    "Mobile app & device management",
+    "Themes & Techniques",
+    "App dev",
+    "FALSE",
+    "Mobile app and device management refer to the processes, strategies, and tools used to control and administer mobile applications and devices within an organization. This includes managing the deployment, security, configuration, updates, and monitoring of mobile apps and devices to ensure efficient and secure usage."
+  ],
+  [
+    "Micro front ends",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Micro Frontends is an architectural approach that extends the principles of microservices to the front-end development of web applications. It involves breaking down a monolithic front-end application into smaller, independent, and manageable units called \"micro frontends.\" Each micro frontend represents a distinct feature, module, or user interface element."
+  ],
+  [
+    "Feature toggles",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Feature toggles, also known as feature flags or feature switches, are a software development technique that allows developers to enable or disable certain features or parts of an application without modifying the codebase. Feature toggles provide a way to control the availability of features, test new functionality, and manage deployment risk in a more controlled manner."
+  ],
+  [
+    "Infra-as-code",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Infrastructure as Code (IaC) is a practice in software development that involves using code to automate the provisioning, management, and configuration of infrastructure resources such as servers, networks, databases, and other cloud services. Instead of manually configuring and managing infrastructure, IaC enables developers to define and manage infrastructure using code, typically in a declarative way."
+  ],
+  [
+    "DB-as-code",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Database as Code (DB-as-Code) is a practice that involves using version-controlled code to define and manage database schema, structure, and configuration, just like other software components. This approach treats the database as a part of the application's source code, allowing for more consistent and repeatable database management."
+  ],
+  [
+    "API-first development",
+    "Themes & Techniques",
+    "App dev",
+    "FALSE",
+    "API-first development is an approach to software development where the design and development of the application's API (Application Programming Interface) take precedence over other aspects of the software. This approach focuses on defining the API's functionality, structure, and interactions before building the user interface or other components."
+  ],
+  [
+    "Server driven UI",
+    "Themes & Techniques",
+    "App dev",
+    "TRUE",
+    "Server-Driven UI is an approach to building user interfaces where the layout, components, and behavior of the user interface are determined and controlled by a server, rather than being hard-coded in the client-side code. In this approach, the server generates and sends the UI components and structure to the client, which then renders the UI accordingly."
+  ],
+  [
+    "GraphQL",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "GraphQL is an open-source query language and runtime for APIs that was developed by Facebook. It provides a more flexible and efficient alternative to traditional REST APIs for fetching and manipulating data. With GraphQL, clients can request exactly the data they need, reducing over-fetching and under-fetching of data that can occur with REST APIs."
+  ],
+  [
+    "React",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "React is an open-source JavaScript library for building user interfaces. It was developed by Facebook and is widely used for creating interactive and dynamic web applications. React follows a component-based architecture, where the UI is broken down into reusable and self-contained components that manage their own state and rendering."
+  ],
+  [
+    "Figma",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "Figma is a collaborative design and prototyping tool that allows teams to create, share, and collaborate on user interface (UI) and user experience (UX) design projects. Figma is cloud-based and provides a platform for designers, developers, and stakeholders to work together in real-time on design projects."
+  ],
+  [
+    "Backstage",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "Backstage is an open-source platform developed by Spotify for managing and creating developer portals, which provide a centralized and unified way for software development teams to manage their services, infrastructure, tools, and documentation. Backstage aims to improve developer productivity, collaboration, and visibility within an organization by providing a customizable and extensible platform for creating a developer-friendly experience."
+  ],
+  [
+    "Polypane",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "Polypane is a web development tool designed to help developers create and test responsive web designs efficiently. Unlike traditional web browsers, Polypane is specifically built for multi-pane view, allowing developers to see how their websites or web applications appear across multiple viewports and devices simultaneously."
+  ],
+  [
+    "Axure",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "Axure RP (Rapid Prototyping) is a powerful and widely-used software tool for creating interactive wireframes, prototypes, and mockups of web and mobile applications. It is designed to help designers, developers, and product teams visualize and communicate design concepts, user flows, and interactions."
+  ],
+  [
+    "NextJS",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    "Next.js is a popular open-source React framework for building modern web applications, with a focus on performance, scalability, and developer experience. It simplifies the process of creating server-rendered React applications, providing tools and features for efficient development of both client-side and server-side rendered pages."
+  ],
+  [
+    "Material UI",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "Material-UI is a popular open-source front-end framework for building user interfaces (UIs) using the principles of Google's Material Design. It provides a set of reusable UI components, styles, and utilities that enable developers to create visually appealing and consistent web applications with a modern design aesthetic."
+  ],
+  [
+    "React-Redux",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "React-Redux is a combination of the React library and Redux state management, allowing developers to efficiently manage and synchronize state across complex user interfaces in React applications."
+  ],
+  [
+    ".NET Core",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    ".NET Core is a cross-platform, open-source framework for building scalable and high-performance applications. It provides a versatile environment for developing web, desktop, and cloud applications using C# or F#."
+  ],
+  [
+    "Jest",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "Jest is a widely used JavaScript testing framework developed by Facebook. It focuses on simplicity and ease of use, providing features for writing unit and integration tests for React applications and other JavaScript code."
+  ],
+  [
+    "Mocha",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    "Mocha is a flexible and popular JavaScript testing framework that supports both browser and Node.js environments. It provides a rich set of features for writing asynchronous and synchronous tests."
+  ],
+  [
+    "TypeORM",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    "TypeORM is an Object-Relational Mapping (ORM) library for TypeScript and JavaScript. It simplifies database interactions by allowing developers to use TypeScript classes and decorators to define database entities and relationships."
+  ],
+  [
+    "Angular",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "Angular is a widely adopted TypeScript-based front-end framework for building dynamic and feature-rich web applications. It provides a structured architecture, dependency injection, and powerful tools for building complex UIs."
+  ],
+  [
+    "Electron",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "Electron is an open-source framework for building cross-platform desktop applications using web technologies such as HTML, CSS, and JavaScript. It allows developers to create desktop apps that run on Windows, macOS, and Linux."
+  ],
+  [
+    ".NET MVC",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "ASP.NET MVC is a web application framework that follows the Model-View-Controller (MVC) architectural pattern. It enables developers to build scalable and maintainable web applications using the .NET framework."
+  ],
+  [
+    "Ant Design",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    "Ant Design is a popular UI component library for React applications. It offers a comprehensive set of customizable components following the principles of the Ant Design language, making it easy to create modern and consistent user interfaces."
+  ],
+  [
+    "Entity Framework",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "Entity Framework is an Object-Relational Mapping (ORM) framework for .NET that simplifies database interaction by allowing developers to work with databases using object-oriented programming concepts."
+  ],
+  [
+    ".NET Web API",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    ".NET Web API is a framework for building HTTP-based services using the .NET platform. It enables developers to create RESTful APIs that can be consumed by various clients."
+  ],
+  [
+    "React Native",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "React Native is a JavaScript framework for building native mobile applications using React. It allows developers to use a single codebase to create apps for iOS and Android platforms."
+  ],
+  [
+    "Flutter",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    ": Flutter is an open-source UI framework by Google for building natively compiled applications for mobile, web, and desktop from a single codebase using the Dart programming language."
+  ],
+  [
+    "Superagent",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    "Superagent is a lightweight JavaScript library for making HTTP requests, providing a simple and intuitive API for performing AJAX calls in both browser and Node.js environments."
+  ],
+  [
+    "Webpack",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "Webpack is a popular module bundler for JavaScript applications. It helps developers manage and bundle assets, such as scripts, styles, and images, for efficient web application development."
+  ],
+  [
+    "Socket.io",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    "Socket.io is a library that enables real-time, bidirectional communication between clients and servers using WebSockets or other transport mechanisms."
+  ],
+  [
+    "FastAPI",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    "FastAPI is a modern, fast, and highly performant web framework for building APIs with Python. It's designed to be easy to use and generate interactive API documentation automatically."
+  ],
+  [
+    "Typescript",
+    "Products & Platforms",
+    "App dev",
+    "FALSE",
+    "TypeScript is a superset of JavaScript that adds static typing and other features to enhance code quality and maintainability during development."
+  ],
+  [
+    "Gatsby",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    "Gatsby is a modern website generator that leverages React to create static websites with fast performance and optimized for search engines."
+  ],
+  [
+    "Read the Docs",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "Read the Docs is a platform that automates the process of building, versioning, and hosting documentation for software projects."
+  ],
+  [
+    "D3.JS",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "D3.js (Data-Driven Documents) is a JavaScript library for creating dynamic and interactive data visualizations in web browsers."
+  ],
+  [
+    "SQL Alchemy",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "SQLAlchemy is a SQL toolkit and Object-Relational Mapping (ORM) library for Python, providing an abstraction layer for interacting with databases."
+  ],
+  [
+    "Node JS",
+    "Products & Platforms",
+    "App dev",
+    "FALSE",
+    "Node.js is a runtime environment that allows developers to run JavaScript on the server side, enabling scalable and efficient server-side programming."
+  ],
+  [
+    "PDF.JS",
+    "Products & Platforms",
+    "App dev",
+    "FALSE",
+    "PDF.js is an open-source JavaScript library for rendering and viewing PDF documents in web browsers."
+  ],
+  [
+    "Blazor",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    "Blazor is a framework for building interactive web applications using C# and .NET instead of JavaScript."
+  ],
+  [
+    "Datatable",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "DataTables is a jQuery plugin that enhances HTML tables with advanced features such as searching, sorting, and pagination."
+  ],
+  [
+    "Roundhouse",
+    "Products & Platforms",
+    "App dev",
+    "FALSE",
+    "Roundhouse is a database schema migration tool for .NET applications that allows for versioned and automated database schema changes."
+  ],
+  [
+    "Hangfire",
+    "Products & Platforms",
+    "App dev",
+    "FALSE",
+    "Hangfire is a background job processing library for .NET that simplifies scheduling and managing recurring and delayed tasks."
+  ],
+  [
+    "Kafka",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "Apache Kafka is a distributed event streaming platform that enables developers to build real-time data pipelines and applications."
+  ],
+  [
+    "Firestore",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "Firestore is a cloud-hosted NoSQL database by Google that provides real-time data synchronization and scalable data storage."
+  ],
+  [
+    "Google Maps",
+    "Products & Platforms",
+    "App dev",
+    "FALSE",
+    "Google Maps API enables developers to embed interactive maps and geolocation services into web and mobile applications."
+  ],
+  [
+    "Mulesoft",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    "MuleSoft is an integration platform that connects various applications, data sources, and APIs to enable seamless data flow and communication."
+  ],
+  [
+    "Notion",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "Notion is an all-in-one workspace tool that combines note-taking, project management, and collaboration features."
+  ],
+  [
+    "plop",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    "Plop is a command-line tool that generates code templates and files based on user-defined templates, making it easy to create repetitive code patterns."
+  ],
+  [
+    "Swagger",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "Swagger is a framework for creating and documenting APIs with OpenAPI specifications, enabling easy API exploration and interaction."
+  ],
+  [
+    "RabbitMQ",
+    "Libraries & Frameworks",
+    "App dev",
+    "TRUE",
+    "RabbitMQ is an open-source message broker that facilitates communication between applications by enabling asynchronous messaging."
+  ],
+  [
+    "Twilio",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "Twilio is a cloud communications platform that provides APIs for sending and receiving messages, making calls, and handling other communication needs."
+  ],
+  [
+    "Auth0",
+    "Products & Platforms",
+    "App dev",
+    "TRUE",
+    "Auth0 is an identity and access management platform that provides authentication and authorization solutions for applications."
+  ],
+  [
+    "IIS",
+    "Libraries & Frameworks",
+    "App dev",
+    "FALSE",
+    "Internet Information Services (IIS) is a web server software by Microsoft used to host and manage websites and web applications."
+  ],
+  [
+    "Redis",
+    "Products & Platforms",
+    "App dev",
+    "FALSE",
+    "Redis is an open-source, in-memory data store that supports various data structures and is often used for caching and data persistence."
+  ],
+  [],
+  [
+    "Usability testing",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Usability testing involves evaluating a product's user interface by observing real users as they interact with it, aiming to identify design flaws and improve user experience."
+  ],
+  [
+    "OWASP",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "OWASP (Open Web Application Security Project) is a nonprofit organization focused on improving software security. Their resources, guides, and tools help developers identify and address security vulnerabilities."
+  ],
+  [
+    "SQL Injection",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "SQL Injection is a type of cyber attack where malicious SQL statements are injected into an application's input fields, potentially leading to unauthorized access or manipulation of a database."
+  ],
+  [
+    "A/B testing",
+    "Themes & Techniques",
+    "QA",
+    "TRUE",
+    "A/B testing is a method to compare two versions of a webpage or application to determine which one performs better in terms of user engagement, conversions, or other metrics."
+  ],
+  [
+    "Fuzz testing",
+    "Themes & Techniques",
+    "QA",
+    "TRUE",
+    "Fuzz testing involves sending random, unexpected, or malformed data to software to identify vulnerabilities and defects that could lead to crashes or security issues."
+  ],
+  [
+    "Continous testing",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Continuous testing is the practice of automating testing throughout the software development lifecycle to ensure frequent and reliable feedback on code quality."
+  ],
+  [
+    "Page load testing",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Page load testing assesses the performance and responsiveness of web pages under different loads, helping to optimize user experience."
+  ],
+  [
+    "Database performance testing",
+    "Themes & Techniques",
+    "QA",
+    "TRUE",
+    "Database performance testing evaluates the speed, scalability, and responsiveness of database systems under various conditions."
+  ],
+  [
+    "Shift-Left testing",
+    "Themes & Techniques",
+    "QA",
+    "TRUE",
+    "Shift-Left testing involves moving testing activities earlier in the development process to catch defects and issues before they propagate."
+  ],
+  [
+    "Mutation testing",
+    "Themes & Techniques",
+    "QA",
+    "TRUE",
+    "Mutation testing involves introducing small changes (mutations) to source code to check the effectiveness of test cases in detecting those changes."
+  ],
+  [
+    "Snapshot testing",
+    "Themes & Techniques",
+    "QA",
+    "TRUE",
+    "Snapshot testing captures the current state of a component's output and compares it against saved snapshots to identify unintended changes."
+  ],
+  [
+    "Observability",
+    "Themes & Techniques",
+    "QA",
+    "TRUE",
+    "Observability involves monitoring, tracing, and logging application behavior to gain insights into system performance and troubleshoot issues."
+  ],
+  [
+    "Selenium",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "Selenium is an open-source framework for automating web browser interactions, used for testing and automating web applications."
+  ],
+  [
+    "BrowserStack",
+    "Products & Platforms",
+    "QA",
+    "TRUE",
+    "BrowserStack is a cloud-based platform that provides real device and browser testing for web applications, enabling cross-browser compatibility testing."
+  ],
+  [
+    "Saucelabs",
+    "Products & Platforms",
+    "QA",
+    "TRUE",
+    "Sauce Labs is a cloud-based platform offering automated testing on real browsers and devices for web and mobile applications."
+  ],
+  [
+    "Playwright",
+    "Libraries & Frameworks",
+    "QA",
+    "TRUE",
+    "Playwright is a Node.js library that automates browser interactions for web testing, providing support for multiple browsers."
+  ],
+  [
+    "Appium",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "Appium is an open-source mobile application automation framework that supports automated testing of mobile apps on various platforms."
+  ],
+  [
+    "Robot framework",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "Robot Framework is an open-source test automation framework that uses a keyword-driven approach for writing test cases."
+  ],
+  [
+    "SonarQube",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "SonarQube is a platform for continuous code quality inspection, offering static analysis to detect code issues and security vulnerabilities."
+  ],
+  [
+    "TestComplete",
+    "Products & Platforms",
+    "QA",
+    "TRUE",
+    "TestComplete is a commercial test automation tool that supports automated testing for web, mobile, and desktop applications."
+  ],
+  [
+    "Burp Suite",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "Burp Suite is a toolkit for security testing web applications, offering tools for scanning vulnerabilities and security assessments."
+  ],
+  [
+    "JMeter",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "Apache JMeter is an open-source tool for load testing and performance measurement of web applications."
+  ],
+  [
+    "Protractor",
+    "Libraries & Frameworks",
+    "QA",
+    "TRUE",
+    "Protractor is an end-to-end testing framework for Angular applications, supporting automation for both web and mobile apps."
+  ],
+  [
+    "Lighthouse",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "Lighthouse is an open-source tool by Google that audits and analyzes web application performance and best practices."
+  ],
+  [
+    "sqlmap",
+    "Products & Platforms",
+    "QA",
+    "TRUE",
+    "sqlmap is an open-source penetration testing tool that automates the process of detecting and exploiting SQL injection vulnerabilities."
+  ],
+  [
+    "TestRail",
+    "Products & Platforms",
+    "QA",
+    "TRUE",
+    "TestRail is a web-based test case management tool used to organize, track, and manage software testing efforts."
+  ],
+  [
+    "Polypane",
+    "Products & Platforms",
+    "QA",
+    "TRUE",
+    "Polypane is a web development tool that enables multi-pane view for testing responsive web designs across various devices and viewports."
+  ],
+  [
+    "Zephyr",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "Zephyr is a test management solution that helps teams organize and manage testing efforts, including test case creation, execution, and reporting."
+  ],
+  [
+    "SoapUI",
+    "Products & Platforms",
+    "QA",
+    "TRUE",
+    "SoapUI is a widely-used tool for testing SOAP and REST APIs, allowing developers to create and execute API test cases."
+  ],
+  [
+    "Ranorex",
+    "Products & Platforms",
+    "QA",
+    "TRUE",
+    "Ranorex is a commercial test automation tool for web, desktop, and mobile applications, supporting both codeless and code-based automation."
+  ],
+  [
+    "Cypress",
+    "Libraries & Frameworks",
+    "QA",
+    "TRUE",
+    "Cypress is a JavaScript end-to-end testing framework for web applications that offers fast, reliable, and easy-to-write tests."
+  ],
+  [
+    "Gremlin",
+    "Products & Platforms",
+    "QA",
+    "TRUE",
+    "Gremlin is a chaos engineering platform that helps teams test the resilience of their applications by simulating failure scenarios."
+  ],
+  [
+    "K6",
+    "Libraries & Frameworks",
+    "QA",
+    "TRUE",
+    "k6 is an open-source load testing tool that focuses on performance testing and load generation to assess application performance and scalability."
+  ],
+  [
+    "AzureDevOps",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "Azure DevOps is a comprehensive set of development tools that enables planning, developing, testing, and delivering applications efficiently using Microsoft's cloud services."
+  ],
+  [
+    "Jira",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "Jira is a popular issue and project tracking tool that helps teams manage tasks, bugs, and projects using customizable workflows."
+  ],
+  [
+    "BDD",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "BDD is a software development methodology that encourages collaboration between developers, testers, and non-technical stakeholders to define and prioritize behavior in a human-readable format."
+  ],
+  [
+    "TDD",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "TDD is a development approach where tests are written before the actual code, guiding the development process and ensuring code correctness."
+  ],
+  [
+    "Shift-Left",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Shift-Left is a testing practice that involves moving testing activities earlier in the development lifecycle to identify and fix issues sooner"
+  ],
+  [
+    "Agile Scrum",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Agile Scrum is an iterative and incremental agile methodology that uses sprints for development, fostering collaboration, adaptability, and rapid delivery."
+  ],
+  [
+    "Waterfall",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Waterfall is a traditional project management approach where development progresses sequentially through defined phases like requirements, design, development, testing, and deployment."
+  ],
+  [
+    "Postman",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "Postman is a collaboration platform that helps developers build, test, and document APIs by providing tools for API development, testing, and monitoring."
+  ],
+  [
+    "WebLoad",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "WebLoad is a performance testing tool that simulates user activity on web applications to assess their responsiveness and scalability."
+  ],
+  [
+    "Flood.io",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "Flood.io is a cloud-based load testing platform that helps teams execute performance tests at scale to identify bottlenecks and assess application performance."
+  ],
+  [
+    "PowerAutomate",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "Power Automate (formerly Microsoft Flow) is a tool for automating workflows and processes across various applications and services."
+  ],
+  [
+    "BurpSuite",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "Burp Suite is a cybersecurity tool used for web application security testing, including scanning for vulnerabilities and identifying potential threats."
+  ],
+  [
+    "Threat Modeling",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "Threat modeling is a process to identify, assess, and mitigate potential security threats and risks to applications and systems."
+  ],
+  [
+    "Jenkins",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "Jenkins is an open-source automation server that facilitates continuous integration and continuous delivery (CI/CD) by automating building, testing, and deployment tasks."
+  ],
+  [
+    "GoCD",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "GoCD is a continuous delivery tool that enables teams to automate and streamline their software delivery pipelines."
+  ],
+  [
+    "Bamboo",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "Bamboo is a CI/CD tool by Atlassian that automates the building, testing, and deployment of code changes."
+  ],
+  [
+    "NewRelic",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "New Relic is an application performance monitoring tool that provides insights into application behavior and performance."
+  ],
+  [
+    "Synthetic Monitoring",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "Synthetic monitoring simulates user interactions with applications to monitor performance and ensure optimal user experiences."
+  ],
+  [
+    "Sysdig",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "Sysdig is a monitoring and security platform that provides visibility into containers and microservices environments."
+  ],
+  [
+    "Docker",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "Docker is a containerization platform that allows developers to package applications and dependencies into containers for consistent deployment across different environments."
+  ],
+  [
+    "DigitalOcean",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "DigitalOcean is a cloud infrastructure provider that offers scalable virtual machines and resources for hosting applications."
+  ],
+  [
+    "SonarQube",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "SonarQube is a static code analysis tool that assesses code quality, identifies bugs, vulnerabilities, and enforces coding standards."
+  ],
+  [
+    "GraphQL",
+    "Products & Platforms",
+    "QA",
+    "FALSE",
+    "GraphQL is a query language for APIs that enables clients to request the specific data they need from servers, reducing over-fetching and under-fetching of data."
+  ],
+  [
+    "SOAP",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "SOAP (Simple Object Access Protocol) is a protocol for exchanging structured information in the implementation of web services."
+  ],
+  [
+    "Web Services",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "Web services are software components that provide interoperability between different applications over a network, often using standards like SOAP or REST."
+  ],
+  [
+    "Smoke Testing",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Smoke testing is a preliminary testing phase where basic functionality of an application is tested to ensure stability before deeper testing."
+  ],
+  [
+    "Regression Testing",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Regression testing verifies that code changes have not adversely affected existing functionalities by retesting the entire application."
+  ],
+  [
+    "SIT Testing",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "SIT testing tests the interactions and integration of various system components to ensure they work together as expected."
+  ],
+  [
+    "E2E Testing",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "E2E testing validates the entire application workflow, simulating user interactions and testing across various components."
+  ],
+  [
+    "UAT Testing",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "UAT testing involves end-users testing the application to ensure it meets their requirements before deployment."
+  ],
+  [
+    "Build Acceptance Testing",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Build acceptance testing validates whether a newly built application version is ready for further testing or deployment."
+  ],
+  [
+    "TestNG",
+    "Libraries & Frameworks",
+    "QA",
+    "FALSE",
+    "TestNG is a testing framework for Java applications that supports parallel execution, data-driven testing, and advanced test configurations."
+  ],
+  [
+    "static code analysis",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Static code analysis involves reviewing source code without executing it to identify issues like code smells, vulnerabilities, and adherence to coding standards."
+  ],
+  [
+    "code coverage",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Code coverage measures the percentage of code exercised by tests, indicating how much of the codebase is tested."
+  ],
+  [
+    "Requirement Traceability Matrix",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Requirement Traceability Matrix (RTM) is a document that maps requirements to test cases to ensure comprehensive test coverage."
+  ],
+  [
+    "PenTest",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Penetration testing involves simulating cyberattacks to identify vulnerabilities and weaknesses in software applications or systems."
+  ],
+  [
+    "Vulnerability Testing",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Vulnerability testing identifies security vulnerabilities in applications, helping developers remediate potential security threats."
+  ],
+  [
+    "Whitebox Testing",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Whitebox testing involves testing the internal structure and logic of an application to ensure code correctness and security."
+  ],
+  [
+    "Blackbox Testing",
+    "Themes & Techniques",
+    "QA",
+    "FALSE",
+    "Blackbox testing focuses on testing the application's external behavior without knowledge of its internal structure."
+  ]
+]

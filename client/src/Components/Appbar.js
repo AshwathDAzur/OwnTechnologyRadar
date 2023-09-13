@@ -27,7 +27,7 @@ function Appbar() {
   };
 
   return (
-    <AppBar position="static" sx={{ bgcolor: "red" }}>
+    <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
