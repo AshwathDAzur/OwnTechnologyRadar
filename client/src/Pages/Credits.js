@@ -1,11 +1,11 @@
 import React from "react";
 import Appbar from "../Components/Appbar";
 
-export default function Page1() {
+export default function page2() {
   return (
     <div>
       <Appbar />
-      <h1>Page1</h1>
+      <h1>Credits</h1>
     </div>
   );
 }

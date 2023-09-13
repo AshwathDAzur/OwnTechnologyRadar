@@ -11,7 +11,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { useNavigate } from "react-router-dom";
 
-const pages = ["page1", "page2", "page3", "page4"];
+const pages = ["Overview", "Credits"];
 
 function Appbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
