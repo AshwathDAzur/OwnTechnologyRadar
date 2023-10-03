@@ -37,9 +37,6 @@ app.get("/rings/:input", async (req, res) => {
     res.status(500).send("Internal Server Error");
   }
 });
-//http://localhost:2407/quadrant/Themes & Techniques
-//http://localhost:2407/quadrant/Products & Platforms
-//http://localhost:2407/quadrant/Libraries & Frameworks
 
 /////////////////////     GET DATA BASED ON QUADRANTS     ////////////////////////////
 
